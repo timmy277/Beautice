@@ -20,6 +20,9 @@
         width: 80%;
     }
 
+    .close{
+        display: block;
+    }
     .slider{
         margin: 0;
         padding: 0;
@@ -502,6 +505,7 @@
 
     [class^="member-"], .expert-job, .team-title p{
         padding: 10px 10px;
+        margin-bottom: 3rem;
     }
 /*==========================================Contact Us==========================================*/
     .contact-us{

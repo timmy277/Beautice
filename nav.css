@@ -1,0 +1,44 @@
+.menu{
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 800px;
+    width: 250px;
+    max-width: 50%;
+    background-color: #ffffff; 
+    transition: 0.5s;
+    transform: translateX(250px);
+}
+
+nav ul{
+    margin-top: 1rem;
+    list-style-type: none;
+}
+
+nav ul li:hover{
+    background-color: #0f83e2;
+}
+nav ul li a{
+    margin-left: 2rem;
+    text-align: start;
+    justify-content: center;
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    color: rgb(45, 11, 199);
+    text-transform: none;
+    text-decoration: none;
+    padding: 8px 0;
+
+}
+
+
+#input-open:checked ~ .menu{
+    transition: 0.5s;
+    transform: translateX(0);
+}
+#input-open:checked ~ .open i{
+    transition: 0.5s;
+    position: absolute;
+}

@@ -6,6 +6,8 @@
     <title>Beautice</title>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
@@ -17,13 +19,10 @@
         <div class="container">   
             <div class="navbar">
                 <img src="./image/MainLogo.png" alt="" width="258px" class="logo">
-                <label for="nav-input" class="close">
+                <label for="input-open" class="menubar">
                     <img src="./image/list.png" alt="" class="menu-icon">
                 </label>
                 <ul class="main-menu">
-                    <label for="nav-input" hidden class="close">
-                        <span>X</span>
-                    </label>
                     <li>Home+</li>
                     <li>About</li>
                     <li>Service</li>
@@ -31,18 +30,49 @@
                     <li>Blog</li>
                     <button class="contact-button">Contact</button>
                 </ul>
-                <input type="checkbox" hidden name="" id="nav-input" class="nav-check">
-                <label for="nav-input" class="nav-overlay"></label>
-                <nav class="nav-wrapper">
-                    <ul class="nav-mobile">
-                        <li class="nav-link">Home+</li>
-                        <li class="nav-link">About</li>
-                        <li class="nav-link">Service</li>
-                        <li class="nav-link">Gallery</li>
-                        <li class="nav-link">Blog</li>
-                    </ul>
-                </nav>
             </div>
+            <nav>
+                <input type="checkbox" hidden name="open" id="input-open">
+                <label for="input-open" class="nav-overlay"></label>
+                <div class="menu">
+                    <ul>
+                        <li>
+                            <label for="input-open" hidden class="close">
+                                <span>x</span>
+                            </label>
+                            <a href="#">
+                                <span><i class="fas fa-home"></i></span>
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a a href="#">
+                                <span><i class="fas fa-address-card"></i></span>
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fas fa-address-book"></i></span>
+                                Service
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fas fa-address-book"></i></span>
+                                Gallery
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fas fa-solid fa-blog"></i></span>
+                                Blog
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+
             <div class="main-slider">
                 <div class="slider-content">
                     <h1>Clinic & beauty consultant</h1>
@@ -173,7 +203,7 @@
         <div class="wrapper">
             <div class="content-footer">
                 <div class="info-company">
-                    <img src="./image//FooterLogo.png" alt="" width="258px" class="logo-footer">
+                    <img src="./image//FooterLogo.png" alt="" width="258px">
                     <p class="footer-p-1"><b>Beautice</b> is a Beauty Clinic WordPress Theme.</p>
                     <p class="footer-p-2">Baker Steet 101, NY, United States.</p>
                     <div class="group-p">
