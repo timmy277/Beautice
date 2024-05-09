@@ -1,0 +1,555 @@
+@media only screen and (max-width: 64em){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        margin-bottom: 80px;
+    }
+
+
+    .menu-icon{
+        display: block;
+    }
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .logo{
+        width: 80%;
+    }
+
+    .slider{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .slider-content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .slider-content p, .slider-content buttton{
+        display: none;
+    }
+
+    .main-slider{
+        flex-direction: column-reverse;
+    }
+
+    .btnSlide{
+        margin-top: 45px;
+    }
+
+    .more-details-button{
+        margin-top: 0;
+    }
+
+    /*===========================================Main Service===========================================*/
+
+    .main-service{
+        margin: 0;
+        margin-top: -50px;
+    }
+
+    /*===========================================Professional Team===========================================*/
+
+    .professional-team{
+        margin: 0;
+    }
+    .team-title h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .team-title p{
+        margin-bottom: 0px;
+    }
+
+    
+    /*===========================================Contact Us===========================================*/
+    .contact-us{
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .contact-content{
+        align-items: center;
+    }
+
+    /*===========================================Footer===========================================*/
+
+
+}
+
+
+
+
+
+/* <740px */
+@media only screen and (max-width: 46.1875em) {
+    /* *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin-bottom: 80px;
+    }
+
+    .container{
+        margin: 0;
+        padding: 0;
+    } */
+    .logo{
+        width: 60%;
+    }
+    .main-menu{
+        display: none;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+    /* .menu-icon{
+        display: block;
+    } */
+
+    /* .slider{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        margin-top: 2rem;
+    } */
+
+    .slider-content h1{
+        font-size: 0.8rem;
+        line-height: 3rem;
+        letter-spacing: 0.01em;
+    }
+
+    /* .slider-content p, .slider-content buttton{
+        display: none;
+    }
+
+    .main-slider{
+        flex-direction: column-reverse;
+    }
+
+    .btnSlide{
+        margin-top: 45px;
+    }
+
+    .more-details-button{
+        margin-top: 0;
+    } */
+
+    /*===========================================Main Service===========================================*/
+
+    .main-service{
+        margin: 0;
+        margin-top: -50px;
+    }
+
+    .sub-title{
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .service-list{
+        /* flex-wrap: nowrap;
+        flex-direction: column; */
+        grid-template-columns: 1fr;
+        margin-top: 2rem;
+    }
+
+    [class^="service-item-"]{
+        /* flex-basis: 100%; */
+        width: 80%;
+        padding: 40px 25px 30px 25px;
+    }
+
+    .service-name{
+        margin-top: 8px;
+    }
+
+    .service-list{
+        grid-template-columns: 1fr;
+    }
+    .main-service {
+        width: 100%;
+    }
+/*===========================================About us===========================================*/
+
+
+    .aboutus{
+        margin: 55px 0px;
+    }
+
+    .aboutus span{
+        align-self: center;
+    }
+
+    .titleanddesc h1{
+        text-align: center;
+    }
+
+    .titleanddesc P{
+        margin-left: 12px;
+    }
+    .aboutus-content{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        margin-top: 2rem;
+        align-items: center;
+        justify-items: center;
+    }
+    .aboutus-image{
+        display: none;
+    }
+
+
+    .group-button{
+        margin-left: 12px;
+    }
+    .learn-more-button, .watch-video-button p{
+        padding: 8px 15px;
+        font-size: 0.7rem;
+        justify-content: space-around;
+    }
+
+    .play-button{
+        width: 20%;
+    }
+
+/*===========================================Professional Team===========================================*/
+/* 
+    .professional-team{
+        margin: 0;
+    }
+    .team-title h1{
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+
+    .team-title p{
+        margin-bottom: 0px;
+    } */
+
+    .list-expert{
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+        row-gap: 1.5rem;
+    }
+
+    [class^="member-"], .expert-job, .team-title p{
+        padding: 10px 0px;
+    }
+    .expert-social{
+        flex-direction: row;
+        margin-top: 0.1rem;
+    }
+    .content-footer{
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    /*===========================================Contact Us===========================================*/
+    /* .contact-us{
+        margin: 0;
+        margin-top: 20px;
+        padding: 0;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .contact-content{
+        align-items: center;
+    } */
+
+    .contact-us h1{
+        font-size: 1.5rem;
+    }
+
+    .contact-title span{
+        align-self: center;
+        text-align: center;
+    }
+    .contact-animation-image{
+        display: none;
+    }
+    .contact-title{
+        text-align: left;
+    }
+    .contact-title p{
+        display: none;
+    }
+    .input-name{
+        flex-direction: column;
+        gap: 0px;
+        justify-content: center;
+    }
+
+    .firstName, .lastName{
+        max-width: 72%;
+    }
+
+    .inquiry{
+        padding-bottom: 100px;
+    }
+
+    .send-message-button{
+        align-self: center;
+        font-size: 0.8rem;
+        padding: 7px 30px;
+        margin-top: 0.5rem;
+    }
+
+
+
+    .content-footer{
+        flex-direction: column;
+    }
+
+    .pages, .informations{
+        margin: 0;
+        padding: 0;
+    }
+    /* .pages ul, .informations ul{
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+    } */
+    .about-us{
+        margin: 0;
+        padding: 0;
+    }
+
+/*===========================================Footer===========================================*/
+    footer, .wrapper{
+        /* background-image: none; */
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .info-company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer{
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .info-company, .pages, .informations{
+        margin: 0;
+        padding: 0;
+    }
+    .info-company{
+        grid-area: info-company;
+    }
+    .pages{
+        grid-area: pages;
+    }
+    .informations{
+        grid-area: informations;
+    }
+
+    .pages ul li:first-child, .informations ul li:first-child{
+        margin-bottom: 0.7rem;
+    }
+
+    .pages ul li, .informations ul li{
+        font-size: 0.8rem;
+        line-height: 0.5rem;
+        list-style-type: none;
+    }
+
+    .toTopImg{
+        bottom: 70px;
+        right: 50px;
+    }
+
+    .content-footer{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+        grid-template-areas: 
+        "info-company info-company" 
+        "pages informations" 
+        ;
+    }
+    .toTopImg{
+        display: none;
+    }
+
+    .group-p{
+        margin-bottom: 30px;
+    }
+    .bottom-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        gap: 1rem;
+        margin-top: 40px;
+        text-align: center;
+        font-size: 0.7rem;
+        padding-bottom: 30px;
+    }
+}
+
+
+
+
+
+/* >=740 <1024 */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em){
+
+    .main-menu{
+        display: none;
+    }
+    .logo{
+        width: 80%;
+        margin-left: 3rem;
+    }
+    .slider-content h1{
+        font-size: 1.8rem;
+        line-height: 3rem;
+        letter-spacing: 0.01em;
+    }
+
+    .service-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navbar{
+        margin-left: 0px;
+    }
+
+    /*===========================================About us===========================================*/
+
+
+    .aboutus{
+        margin: 55px 0px;
+    }
+
+    .aboutus span{
+        align-self: center;
+    }
+
+    .titleanddesc h1{
+        text-align: center;
+    }
+
+    .titleanddesc p{
+        margin-left: 12px;
+        text-align: center;
+    }
+    .aboutus-content{
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        margin-top: 2rem;
+        align-items: center;
+        justify-items: center;
+    }
+    .aboutus-image{
+        display: none;
+    }
+    .navbar ul{
+        display: none;
+    }
+
+
+    .group-button{
+        align-self: center;
+    }
+    /* .learn-more-button, .watch-video-button p{
+        padding: 8px 15px;
+        font-size: 0.7rem;
+        justify-content: space-around;
+    } */
+
+    .play-button{
+        width: 20%;
+    }
+
+/*===========================================Professional Team===========================================*/
+
+
+    .list-expert{
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 2rem;
+        column-gap: 1rem;
+    }
+
+    [class^="member-"], .expert-job, .team-title p{
+        padding: 10px 10px;
+    }
+/*==========================================Contact Us==========================================*/
+    .contact-us{
+        flex-direction: column-reverse;
+    }
+    .send-message-button{
+        align-self: center;
+    }
+
+    /*===========================================Footer===========================================*/
+    footer, .wrapper{
+        /* background-image: none; */
+        margin: 0;
+        padding-top: 30px;
+        width: 100%;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .info-company{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo-footer{
+        align-self: center;
+        margin: 0 auto;
+    }
+
+    .info-company, .pages, .informations{
+        margin: 0;
+        padding: 0;
+    }
+
+    .bottom-footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        gap: 1rem;
+        margin-top: 0px;
+        text-align: center;
+        font-size: 0.7rem;
+        padding-bottom: 30px;
+    }
+    .toTopImg{
+        display: none;
+    }
+}

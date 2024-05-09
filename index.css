@@ -29,13 +29,10 @@ header{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    /* background-image: url("./image/SlideBackground.png"); */
+    background-image: url("./image/SlideBackground.png");
+    background-size: cover;
 }
 
-/* .menu-icon{
-    width: 30px;
-    display: none;
-} */
 .navbar{
     display: flex;
     margin-left: 41px;
@@ -47,65 +44,6 @@ header{
     align-items: center;
     align-self: flex-start;
     justify-items: center;
-}
-
-/* .nav-overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
-    background-color: rgba(0, 0, 0, 0.3);
-    animation: fadeIn linear 0.2s;
-}
-
-.nav-wraper{
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    width: 320px;
-    max-width: 100%;
-    background-color: rgb(208, 26, 26);
-    transform: translateX(-100%);
-    opacity: 0;
-    transition: transform linear 0.2s; 
-    transition: transform linear 0.2s, opacity linear 0.2s;
-}*/
-.nav-mobile{
-    margin-top: 24px;
-}
-.nav-link{
-    color: #333;
-    display: block;
-    padding: 8px 0px;
-    font-size: 1.4rem;
-}
-
-.close{
-    font-size: 2rem;
-    color: brown;
-    position: absolute;
-    top: 1rem;
-    right: 1rem;
-}
-
-.nav-check:checked~.nav-overlay{
-    display: block;
-}
-
-.nav-check:checked~.nav-wraper{
-    transform: translateX(0);
-}
-
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }
 
 .navbar ul {
@@ -197,7 +135,7 @@ header{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
-    line-height: 60px;
+    line-height: 5rem;
     padding-bottom: 12px;
 }
 
@@ -226,7 +164,75 @@ header{
     margin-top: 32px;
 }
 
+.menu-icon{
+    width: 30px;
+    display: none;
+    margin-top: 40px;
+}
 
+
+
+.nav-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: fadeIn linear 0.2s;
+}
+
+.nav-wraper{
+    position: fixed;
+    /* display: flex;
+    flex-direction: column; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    max-width: 100%;
+    background-color: rgb(208, 26, 26);
+    transform: translateX(100%);
+    opacity: 0;
+    /* transition: transform linear 0.2s;  */
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+.nav-mobile{
+    margin-top: 24px;
+}
+.nav-link{
+    color: #333;
+    display: block;
+    padding: 8px 0px;
+    font-size: 1.4rem;
+}
+
+.close{
+    font-size: 2rem;
+    color: brown;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.nav-check:checked~.nav-overlay{
+    display: block;
+}
+
+.nav-check:checked~.nav-wraper{
+    transform: translateX(0);
+    background-color: #64ff64;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
 
 /*===========================================Main Service===========================================*/
 
@@ -478,7 +484,7 @@ header{
 }
 
 [class^="member-"]{
-    background-color: #FF64AE;
+    /* background-color: #FF64AE; */
     border: none;
     border-radius: 42px;
     padding-top: 70px;
@@ -538,7 +544,7 @@ header{
 .contact-us{
     margin: 170px 150px 0px 150px;
     display: flex;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     flex-direction: row;
     align-items: center;
     justify-items: center;
@@ -611,7 +617,6 @@ form input{
 .inquiry{
     padding-top: 23px;
     padding-bottom: 200px;
-    
 }
 .input-name{
     width: 100%;
@@ -645,7 +650,8 @@ form input p{
 
 .send-message-button{
     align-self: flex-start;
-    margin-bottom: 70px;color: #FFFFFF;
+    margin-bottom: 70px;
+    color: #FFFFFF;
     background-color: #FF64AE;
     padding: 17px 50px;
     border: none;
@@ -690,11 +696,8 @@ footer{
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas: "info-company pages informations";
+}
 
-}
-.info-company{
-    flex: 2;
-}
 
 .info-company{
     color: #D7DBFF;
