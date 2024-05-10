@@ -131,6 +131,7 @@ header{
 }
 
 .slider-content h1{
+    color: #091156;
     font-size: 3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -165,9 +166,10 @@ header{
 }
 
 .menu-icon{
-    width: 30px;
+    width: 20px;
     display: none;
-    margin-top: 40px;
+    margin-top: -2.5rem;
+    margin-left: 0;
 }
 
 .menubar{
@@ -198,11 +200,11 @@ header{
 }
 
 .close{
-    font-size: 2rem;
-    color: brown;
+    font-size: 1rem;
     position: absolute;
-    top: 0.8rem;
-    right: 1rem;
+    font-weight: 100;
+    top: 0.2rem;
+    right: 0.2rem;
 }
 
 #input-open:checked~.nav-overlay{
@@ -582,14 +584,14 @@ header{
     /* margin-right: auto; */
 }
 
+.contact-title{
+    align-self: center;
+    margin-right: 50px;
+}
+
 form{
-    /* width: 100%; */
     display: flex;
     flex-direction: column;
-    /* align-self: flex-end;
-    align-items: center;
-    justify-content: center; */
-    /* margin-right: auto; */
 }
 
 form input{
@@ -598,7 +600,6 @@ form input{
     padding: 17px 0px 16px 24px;
     margin-bottom: 41px;
     width: 100%;
-    margin-right: auto;
     margin-right: 29px;
     max-width: 500px;
 
@@ -616,7 +617,6 @@ form input{
     padding-bottom: 200px;
 }
 .input-name{
-    width: 100%;
     display: flex;
     flex-direction: row;
     /* justify-content: flex-start; */
@@ -627,6 +627,9 @@ form input{
     
 }
 
+.input-email{
+    margin-left: 100px;
+}
 .firstName, .lastName{
     margin-left: auto;
     margin-right: 0;
@@ -660,7 +663,9 @@ form input p{
     letter-spacing: 0.1em;
     border-radius: 50px;
     width: fit-content;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-bottom: 75px;
 }
 
 /*===========================================Footer===========================================*/
@@ -672,12 +677,15 @@ footer{
 }
 
 .wrapper{
-    margin: 30px 191px 0px 191px;
+    margin: 35px 191px 0px 191px;
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
 }
 
+.footer-logo{
+    width: 62%;
+}
 .bottom-footer{
     display: flex;
     flex-direction: row;
@@ -720,8 +728,18 @@ footer{
 .group-p{
     margin-left: 27px;
 }
+
+.footer-p-3, .footer-p-4{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+    margin-left: 27px;
+}
 .footer-p-4{
     text-decoration: underline;
+    margin-left: 2rem;
 }
 
 .pages{
@@ -746,7 +764,7 @@ footer{
 }
 
 .informations ul{
-    margin-left: 10px;
+    margin-left: 17px;
 }
 
 
@@ -761,6 +779,7 @@ footer{
     letter-spacing: 0.1em;
     text-align: left;
     margin-top: 10px;
+    padding-left: 5px;
 }
 
 .pages span, .informations span{
@@ -769,16 +788,17 @@ footer{
 }
 
 .pages ul li:first-child, .informations ul li:first-child{
-    margin-bottom: 1.7rem;
+    margin-bottom: 1.4rem;
     list-style-image: none;
     margin-left: -1rem;
+    list-style-type: none;
 }
 
 .group-p{
     display: flex;
     flex-direction: row;
-    gap: 28px;
-    margin-bottom: 162px;
+    gap: 0px;
+    margin-bottom: 155px;
 }
 
 /* .footer-social image{

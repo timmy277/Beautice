@@ -35,11 +35,13 @@
                 <input type="checkbox" hidden name="open" id="input-open">
                 <label for="input-open" class="nav-overlay"></label>
                 <div class="menu">
+                    <img src="./image/MainLogo.png" alt="" width="150px" class="nav-logo">
+                    <label for="input-open" hidden class="close">
+                        <span><i class="fas fa-times"></i></span>
+                    </label>
                     <ul>
                         <li>
-                            <label for="input-open" hidden class="close">
-                                <span>x</span>
-                            </label>
+
                             <a href="#">
                                 <span><i class="fas fa-home"></i></span>
                                 Home
@@ -69,6 +71,12 @@
                                 Blog
                             </a>
                         </li>
+                        <li>
+                            <a href="#">
+                                <span><i class="fas fa-phone"></i></span>
+                                Contact
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -95,17 +103,17 @@
         </div>
         <div class="service-list">
             <div class="service-item-1">
-                <img src="./image/Animation1.png" alt="">
+                <img src="./image/Animation1.png" alt="" class="service-img">
                 <p class="service-name">Beauty consultation</p>
                 <p>Non parturient amet, feugiat<br> tellus sagittis, scelerisque eget <br> nulla turpis.</p>
             </div>
             <div class="service-item-2">
-                <img src="./image/Animation2.png" alt="">
+                <img src="./image/Animation2.png" alt="" class="service-img">
                 <p class="service-name">Skin treatments</p>
                 <p>Non parturient amet, feugiat <br>tellus sagittis, scelerisque eget <br> nulla turpis.</p>
             </div>
             <div class="service-item-3">
-                <img src="./image/Animation3.png" alt="">
+                <img src="./image/Animation3.png" alt="" class="service-img">
                 <p class="service-name">Beauty product</p>
                 <p>Non parturient amet, feugiat<br> tellus sagittis, scelerisque eget <br> nulla turpis.</p>
             </div>
@@ -191,9 +199,11 @@
                     <input class="firstName" type="text" placeholder="First name" name="" id="">
                     <input class="lastName" type="text" placeholder="Last name" name="" id="">
                 </div>
-                <input type="email" placeholder="Email address" name="" id="">
-                <input type="text" placeholder="Subject message" name="" id="">
-                <input type="text" class="inquiry" placeholder="Your inquiry here" name="" id="">
+                <div class="input-email">
+                    <input type="email" placeholder="Email address" name="" id="">
+                    <input type="text" placeholder="Subject message" name="" id="">
+                    <input type="text" class="inquiry" placeholder="Your inquiry here" name="" id="">
+                </div>
                 <button class="send-message-button">Send Message</button>
             </form>
         </div>
@@ -203,7 +213,7 @@
         <div class="wrapper">
             <div class="content-footer">
                 <div class="info-company">
-                    <img src="./image//FooterLogo.png" alt="" width="258px">
+                    <img src="./image//FooterLogo.png" alt="" width="258px" class="footer-logo">
                     <p class="footer-p-1"><b>Beautice</b> is a Beauty Clinic WordPress Theme.</p>
                     <p class="footer-p-2">Baker Steet 101, NY, United States.</p>
                     <div class="group-p">
@@ -234,11 +244,11 @@
             <img class="toTopImg" src="./image/ToTopButton.png" alt="" width="36px">
             <div class="bottom-footer">
                 <div class="footer-social">
-                    <img src="./image/facebook-f.png" alt="" width="25px">
-                    <img src="./image/twitter2.png" alt="" width="25px">
-                    <img src="./image/linkedin-in.png" alt=""width="25px">
-                    <img src="./image/youtube.png" alt=""width="25px">
-                    <img src="./image/instagram2.png" alt=""width="25px">
+                    <img src="./image/facebook-f.png" alt="" width="25px" class="social-img">
+                    <img src="./image/twitter2.png" alt="" width="25px" class="social-img">
+                    <img src="./image/linkedin-in.png" alt="" width="25px" class="social-img">
+                    <img src="./image/youtube.png" alt="" width="25px" class="social-img">
+                    <img src="./image/instagram2.png" alt="" width="25px" class="social-img">
                 </div>
                 <p>© AltDesain Studio 2021 - All right reserved.</p>
             </div>
