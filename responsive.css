@@ -601,6 +601,11 @@
     }
     .send-message-button{
         align-self: center;
+        font-size: 1rem;
+        padding: 15px 35px;
+        margin-top: 0.5rem;
+        margin: 0;
+        margin-bottom: 1rem;
     }
     .input-name{
         max-width: 100%;
