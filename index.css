@@ -531,7 +531,7 @@ header{
 /*===========================================Contact Us===========================================*/
 
 .contact-us{
-    margin: 170px 191px 0px 191px;
+    margin: 170px 180px 0px 191px;
     display: flex;
     /* max-width: 1200px; */
     flex-direction: row;
@@ -573,6 +573,7 @@ header{
     margin-bottom: 47px;
 }
 
+
 .contact-content{
     display: flex;
     flex-direction: column;
@@ -594,13 +595,20 @@ form{
 form input{
     border: 1px solid #D9DDFE;
     border-radius: 15px;
-    padding: 22px 0px 20px 20px;
+    padding: 17px 0px 16px 24px;
     margin-bottom: 41px;
     width: 100%;
     margin-right: auto;
-    /* margin-left: -29px; */
     margin-right: 29px;
     max-width: 500px;
+
+    color: #8B8B8B;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    margin-top: 0px;
 }
 
 .inquiry{
