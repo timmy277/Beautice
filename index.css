@@ -531,7 +531,7 @@ header{
 /*===========================================Contact Us===========================================*/
 
 .contact-us{
-    margin: 170px 150px 0px 150px;
+    margin: 170px 191px 0px 191px;
     display: flex;
     /* max-width: 1200px; */
     flex-direction: row;
@@ -594,7 +594,7 @@ form{
 form input{
     border: 1px solid #D9DDFE;
     border-radius: 15px;
-    padding: 20px 0px 20px 20px;
+    padding: 22px 0px 20px 20px;
     margin-bottom: 41px;
     width: 100%;
     margin-right: auto;
