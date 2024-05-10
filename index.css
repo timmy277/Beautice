@@ -672,7 +672,7 @@ footer{
 }
 
 .wrapper{
-    margin: 40px 191px 0px 191px;
+    margin: 30px 191px 0px 191px;
     display: flex;
     flex-direction: column;
     /* align-items: flex-start; */
@@ -736,7 +736,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-self: flex-start;
-    margin-top: -16px;
+    margin-top: -24px;
 }
 
 .pages ul, .informations ul{
