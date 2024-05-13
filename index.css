@@ -12,7 +12,6 @@ img {
 /*===========================================Header===========================================*/
 header{
     max-width: 100%;
-    max-width: 90rem;
     display: flex;
     flex-direction: column;
     align-self: center;
@@ -228,7 +227,6 @@ header{
 
 .main-service{
     max-width: 80%;
-    max-width: 90rem;
     margin: 8.2rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
@@ -324,7 +322,6 @@ header{
 
 .aboutus{
     max-width: 100%;
-    max-width: 90rem;
     margin: 8.438rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
@@ -450,7 +447,6 @@ header{
 /*===========================================Professional Team===========================================*/
 
 .professional-team{
-    max-width: 90rem;
     margin: 7.4rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
@@ -573,7 +569,6 @@ header{
     margin: 10.625rem 9.375rem 0rem 9.375rem;
     display: flex;
     max-width: 100%;
-    max-width: 90rem;
     flex-direction: row;
     align-items: center;
     justify-items: center;
@@ -697,12 +692,11 @@ form input{
 footer{
     background-image: url("./image/FooterBG.png"), url("./image/BottomBG.png");
     background-size: cover, auto;
-    background-position: top left, bottom right;
+        background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat;
     object-fit: contain;
     padding-top: 12.5rem;
     max-width: 100%;
-    /* max-width: 90rem; */
     color: #D7DBFF;
 
 }
@@ -732,6 +726,8 @@ footer{
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas: "info-company pages informations";
 }
+
+
 
 
 .footer-p-1{
