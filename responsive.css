@@ -237,11 +237,14 @@
         padding: 0;
         flex-direction: column;
         margin-top: 2rem;
+        gap: 3rem;
         align-items: center;
         justify-items: center;
     }
     .aboutus-image{
-        display: none;
+        max-width: 100%;
+        align-self: center;
+        margin: 0 auto;
     }
 
     .group-button{
@@ -308,9 +311,10 @@
         align-self: center;
         text-align: center;
     }
-    .contact-animation-image{
+    /* .contact-animation-image{
         display: none;
-    }
+    } */
+    
     .contact-title{
         text-align: center;
     }
@@ -538,6 +542,13 @@
         display: none;
     }
 
+    .main-slider image{
+        /* width: 37.5rem; */
+        max-width: 100%;
+        height: auto;
+        flex-basis: 50%;
+    }
+
     .close{
         margin-top: 0rem;
         margin-left: 1rem;
@@ -587,6 +598,11 @@
         align-self: center;
     }
 
+    .aboutus-image{
+        max-width: 100%;
+        align-self: center;
+        margin: 0 auto;
+    }
     .titleanddesc h1{
         text-align: center;
     }
@@ -604,9 +620,9 @@
         align-items: center;
         justify-items: center;
     }
-    .aboutus-image{
+    /* .aboutus-image{
         display: none;
-    }
+    } */
     .navbar ul{
         display: none;
     }
@@ -651,6 +667,10 @@
     }
     .input-name{
         max-width: 100%;
+    }
+
+    .contact-animation-image{
+        width: 80%;
     }
 
     /*===========================================Footer===========================================*/
