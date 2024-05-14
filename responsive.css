@@ -519,7 +519,9 @@
 
 
 
-/* >=740 <1440 */
+/* >=740 <1440 
+Tablet
+*/
 @media only screen and (min-width: 46.25em) and (max-width: 89.938em)
 /* @media only screen and (min-width: 768px) and (max-width: 1439px) */
 {
@@ -547,6 +549,7 @@
 
     .slider-content{
         margin-top: -10rem;
+        width: 90%;
     }
 
     .slider-content h1{
