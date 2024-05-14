@@ -1,4 +1,4 @@
-@media only screen and (max-width: 89.9em){
+@media only screen and (max-width: 89.938em){
     *{
         margin: 0;
         padding: 0;
@@ -120,14 +120,17 @@
 
 
 
-
-
 /* <740px */
-@media only screen and (max-width: 46.1875em) {
+@media only screen and (max-width: 46.25em) 
+/* Điện thoại di động */
+/* @media only screen and (max-width: 767px) */
+{
     .main-menu{
         max-width: 100%;
         display: none;
+        
     }
+
 
     .navbar ul{
         display: none;
@@ -243,7 +246,7 @@
         justify-items: center;
     }
     .aboutus-image{
-        max-width: 100%;
+        max-width: 90%;
         align-self: center;
         margin: 0 auto;
     }
@@ -398,8 +401,12 @@
         width: 100%;
         align-items: center;
         justify-items: center;
+        
     }
 
+    .footer-container{
+        padding: 0;
+    }
     .footer-logo{
         width: 50%;
         margin-top: 4rem;
@@ -513,7 +520,9 @@
 
 
 /* >=740 <1440 */
-@media only screen and (min-width: 46.25em) and (max-width: 89.9em){
+@media only screen and (min-width: 46.25em) and (max-width: 89.938em)
+/* @media only screen and (min-width: 768px) and (max-width: 1439px) */
+{
 
     .main-menu{
         display: none;
@@ -525,6 +534,7 @@
         height: auto;
         flex-basis: 50%;
     }
+
 
     .close{
         margin-top: 0rem;
@@ -582,8 +592,8 @@
     }
 
     .aboutus-image{
-        max-width: 100%;
-        width: 100%;
+        max-width: 80%;
+        width: 80%;
         /* flex-basis: 100%; */
         align-self: center;
         margin: 0 auto;

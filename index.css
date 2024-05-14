@@ -90,7 +90,7 @@ header{
 
 .btnSlide{
     max-width: 4.438rem;
-    margin-top: 8.7rem;
+    margin-top: 8.9rem;
 }
 
 .contact-button{
@@ -249,7 +249,7 @@ header{
 
 .main-service{
     max-width: 80%;
-    margin: 8.2rem 9.375rem 0rem 9.375rem;
+    margin: 8.4rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -315,6 +315,7 @@ header{
     box-shadow: 0rem 1.563rem 3.125rem 1.563rem #F6F7FF;
     padding: 3.688rem 2.813rem 4.375rem 2.813rem;
     background-color: #FFFFFF;
+    margin-bottom: 1rem;
 }
 
 
@@ -344,27 +345,10 @@ header{
 
 /*===========================================About us===========================================*/
 
-.wrapper-aboutus{
-    /* background-image: url("./image/BackgroundBubble.png");
-    background-repeat: no-repeat;
-    background-size: cotain;
-    background-position: top right; */
-    /* z-index: -10; */
-    /* position: relative; */
-    /* z-index: -1; */
-}
-
-/* .background-bubble{
-    position: absolute;
-    z-index: -9;
-    right: 0;
-    top: -10rem;
-} */
-
 .aboutus{
     max-width: 100%;
     margin: 0rem 9.375rem 0rem 9.375rem;
-    padding-top: 8.438rem;
+    padding-top: 7.2rem;
     display: flex;
     flex-direction: column;
 }
@@ -487,7 +471,7 @@ header{
 /*===========================================Professional Team===========================================*/
 
 .professional-team{
-    margin: 5.4rem 9.375rem 0rem 9.375rem;
+    margin: 5.2rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
     justify-items: center;

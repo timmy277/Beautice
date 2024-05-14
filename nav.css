@@ -8,6 +8,7 @@
     background-color: #ffffff; 
     transition: 0.5s;
     transform: translateX(-100%);
+    z-index: 100;
 }
 
 nav ul{
