@@ -11,14 +11,26 @@ img {
 
 /*===========================================Header===========================================*/
 header{
-    max-width: 100%;
+    /* max-width: 100%; */
     display: flex;
     flex-direction: column;
     align-self: center;
     justify-items: center;
     justify-content: space-between;
-    background-image: url("./image/SlideBackground.png");
-    background-size: cover;
+    /* background-image: url("./image/SlideBackground.png");
+    background-size: contain;
+    background-repeat: no-repeat; */
+    /* overflow: visible; */
+    /* padding-right: 9.375rem; */
+    position: relative;
+}
+
+.background-top{
+    position: absolute;
+    z-index: -2;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .container{
@@ -28,7 +40,6 @@ header{
     flex-direction: column;
     justify-items: center;
     align-items: center;
-    background-size: cover;
 }
 
 .logo{
@@ -224,6 +235,17 @@ header{
 
 /*===========================================Main Service===========================================*/
 
+.wrapper-mainservice{
+    position: relative;
+}
+
+.background-bubble{
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    top: 34rem;
+}
+
 
 .main-service{
     max-width: 80%;
@@ -234,7 +256,9 @@ header{
     justify-items: center;
     justify-content: center;
     text-align: center;
+    
 }
+
 
 .service-title span{
     color: #FF64AE;
@@ -290,6 +314,7 @@ header{
     /* background-color: #FF64AE; */
     box-shadow: 0rem 1.563rem 3.125rem 1.563rem #F6F7FF;
     padding: 3.688rem 2.813rem 4.375rem 2.813rem;
+    background-color: #FFFFFF;
 }
 
 
@@ -319,10 +344,27 @@ header{
 
 /*===========================================About us===========================================*/
 
+.wrapper-aboutus{
+    /* background-image: url("./image/BackgroundBubble.png");
+    background-repeat: no-repeat;
+    background-size: cotain;
+    background-position: top right; */
+    /* z-index: -10; */
+    /* position: relative; */
+    /* z-index: -1; */
+}
+
+/* .background-bubble{
+    position: absolute;
+    z-index: -9;
+    right: 0;
+    top: -10rem;
+} */
 
 .aboutus{
     max-width: 100%;
-    margin: 8.438rem 9.375rem 0rem 9.375rem;
+    margin: 0rem 9.375rem 0rem 9.375rem;
+    padding-top: 8.438rem;
     display: flex;
     flex-direction: column;
 }
@@ -368,9 +410,6 @@ header{
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-    background-image: url("./image/BackgroundBubble.png");
-    background-repeat: no-repeat;
-    background-size: cover;
     /* gap: 100px; */
 }
 
@@ -428,7 +467,6 @@ header{
 
 .watch-video-button image{
     box-shadow: 0rem 0rem 3.125rem 1.563rem #FFFFFF;
-    max-width: 476%;
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -436,8 +474,9 @@ header{
 }
 
 .aboutus-image{
-    width: 29.75rem;
+    /* width: 29.75rem; */
     width: 100%;
+    transform: scale(1.1);
     height: auto;
     margin-right: -2.6rem;
     padding-top: 2rem;
@@ -562,14 +601,27 @@ header{
 /*===========================================Contact Us===========================================*/
 
 .wrapper-contactus{
-    background-image: url("./image/BackgroundBubble2.png");
+    /* background-image: url("./image/BackgroundBubble2.png");
     background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: contain;
+    background-size: contain;
+    background-position: top;
+    object-fit: contain; */
+    /* margin-bottom: 4rem; */
+    width: 100%;
+    position: relative;
 }
 
+.background-contactus{
+    position: absolute;
+    z-index: -10;
+    top: 0;
+    left: 0;
+}
+
+
 .contact-us{
-    margin: 9.925rem 9.375rem 0rem 9.375rem;
+    margin: 0rem 9.375rem 0rem 9.375rem;
+    padding-top: 9.925rem;
     display: flex;
     max-width: 100%;
     flex-direction: row;
@@ -635,7 +687,6 @@ form{
     max-width: 100%;
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
 }
 
 form input{
@@ -643,7 +694,7 @@ form input{
     border-radius: 1rem;
     padding: 1rem 0rem 1.1rem 1.5rem;
     margin-bottom: 2.563rem;
-    color: #C5C5C5;
+    color: hsl(0, 0%, 77%);
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
@@ -673,7 +724,6 @@ form input{
 
 
 .send-message-button{
-    margin-bottom: 4.375rem;
     color: #FFFFFF;
     background-color: #FF64AE;
     padding: 1rem 3.4rem;
@@ -687,25 +737,26 @@ form input{
     border-radius: 3.125rem;
     width: fit-content;
     margin-top: 0.8rem;
-    margin-bottom: 4.688rem;
 }
 
 /*===========================================Footer===========================================*/
 
 .footer-container{
     background-image: url("./image/FooterBG.png"), url("./image/BottomBG.png");
-    background-size: cover, contain;
+    background-size: 100%, 100%;
     background-position: center, bottom;
     background-repeat: no-repeat, no-repeat;
-    object-fit: contain;
-    padding-top: 12.5rem;
+    object-fit: contain, contain;
+    padding-top: 14rem;
+    margin-top: 4rem;
     max-width: 100%;
     color: #D7DBFF;
+    overflow: visible;
 }
 
 .wrapper{
     max-width: 100%;
-    margin: 2.188rem 9.375rem 0rem 9.375rem;
+    margin: 1.4rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
 }
@@ -728,8 +779,6 @@ form input{
     grid-template-columns: 2fr 1fr 1fr;
     grid-template-areas: "info-company pages informations";
 }
-
-
 
 
 .footer-p-1{
@@ -802,7 +851,7 @@ form input{
 }
 
 .informations ul{
-    margin-left: 17px;
+    margin-left: 1rem;
 }
 
 
