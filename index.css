@@ -133,9 +133,14 @@ header{
 .main-slider image{
     /* width: 37.5rem; */
     max-width: 100%;
+    width: 100%;
     height: auto;
-    flex-basis: 50%;
+    flex-basis: 60%;
 }
+
+/* .slider-img{
+    width: 90%;   
+} */
 
 .slider-content h1{
     color: #091156;
@@ -183,7 +188,6 @@ header{
     margin-top: -3rem;
     margin-left: auto;
 }
-
 
 .nav-overlay{
     position: fixed;
