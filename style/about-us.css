@@ -1,0 +1,126 @@
+
+.aboutus{
+    max-width: 71.25rem;
+    margin: 0rem 9.375rem 0rem 9.375rem;
+    padding-top: 8.403rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus span{
+    color: #FF64AE;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.aboutus-content{
+    display: flex;
+}
+
+.titleanddesc h1 {
+    color: #091156;
+    font-size: 2.25rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2.813rem;
+}
+
+.titleanddesc p{
+    max-width: 30.188rem;
+    margin-top: 1.2rem;
+    color: #8B8B8B;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+}
+
+
+.aboutus-content{
+    /* max-width: 41.5rem; */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.titleanddesc{
+    /* flex-basis: 50%; */
+    display: flex;
+    flex-direction: column;
+    /* margin-right: 50px; */
+}
+
+.aboutus-image{
+    max-width: 29.75rem;
+    width: 50%;
+    margin-left: 3.6rem;
+    margin-top: -2.1rem;
+    padding-top: 0rem;
+    /* flex-basis: 50%; */
+}
+/* .aboutus-image image{
+    width: 100%;
+    object-fit: contain;
+} */
+
+.group-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-top: 3.25rem;
+}
+
+.learn-more-button{
+    color: #FFFFFF;
+    background-color: #FF64AE;
+    padding: 1rem 2.875rem;
+    border: none;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.5rem;
+    border-radius: 3.125rem;
+    letter-spacing: 0.1em;
+    width: fit-content;
+    box-shadow: 0rem 1.063rem 1.375rem 0rem #FFEDF6;
+
+}
+
+.watch-video-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2.75rem;
+}
+
+.watch-video-button p{
+    margin: 0;
+    margin-left: 1rem;
+    color: #8B8B8B;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+}
+
+.watch-video-button image{
+    box-shadow: 0rem 0rem 3.125rem 1.563rem #FFFFFF;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex-basis: 50%;
+}
+
+

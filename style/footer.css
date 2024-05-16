@@ -1,0 +1,179 @@
+
+.footer-container{
+    background-image: url("/image/FooterBG.png"), url("/image/BottomBG.png");
+    background-size: 100%, 100%;
+    background-position: center, bottom;
+    background-repeat: no-repeat, no-repeat;
+    object-fit: contain, contain;
+    padding-top: 14rem;
+    margin-top: 4rem;
+    max-width: 100%;
+    color: #D7DBFF;
+    /* overflow: visible; */
+}
+
+.wrapper{
+    max-width: 100%;
+    margin: 1.4rem 9.375rem 0rem 9.375rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo{
+    max-width: 45%;
+}
+
+.pages ul li, .informations ul li{
+    list-style-image: url("/image/Vector.png");
+    color: #D7DBFF;
+    line-height: 1.7rem;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-top: 0.625rem;
+    padding-left: 0.313rem;
+}
+
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #D7DBFF;
+    margin-bottom: 5.313rem;
+}
+
+.content-footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: "info-company pages informations";
+}
+
+
+.footer-p-1{
+    max-width: 100%;
+    margin: 1.875rem 0rem 1.4rem 1.7rem;
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+
+.footer-p-2{
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 1.313rem;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-left: 1.688rem;
+}
+
+.group-p{
+    margin-left: 0.5rem;
+}
+
+.footer-p-3{
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 1.313rem;
+    text-align: left;
+    margin-top: 0.313rem;
+    margin-left: 1.688rem;
+    letter-spacing: 0.1em;
+}
+.footer-p-4{
+    text-decoration: underline;
+    font-family: Poppins;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.313rem;
+    text-align: left;
+    margin-left: 2.2rem;
+    margin-top: 0.313rem;
+    letter-spacing: 0.1em;
+}
+
+.pages{
+    margin-left: 1.25rem;
+}
+.informations{
+    margin-left: 4.375rem;
+}
+
+.pages, .informations{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    margin-top: -1.5rem;
+}
+
+.pages ul, .informations ul{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.813rem;
+}
+
+.informations ul{
+    margin-left: 1rem;
+}
+
+
+
+.pages span, .informations span{
+    list-style-type: none;
+    font-weight: bolder;
+}
+
+.pages ul li:first-child, .informations ul li:first-child{
+    margin-bottom: 1.4rem;
+    list-style-image: none;
+    margin-left: -1rem;
+    list-style-type: none;
+}
+
+.group-p{
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+    margin-bottom: 9.688rem;
+}
+
+/* .footer-social image{
+    width: 18px;
+} */
+
+.footer-social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2.8rem;
+}
+
+.toTopImg{
+    position: fixed;
+    bottom: 10.5rem;
+    right: 4.1rem;
+    /* align-self: flex-end;
+    margin-bottom: 1rem; */
+}
+
+.bottom-footer p{
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+

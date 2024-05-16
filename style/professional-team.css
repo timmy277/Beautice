@@ -1,0 +1,152 @@
+
+.professional-team{
+    max-width: 67.813rem;
+    margin: 0 auto;
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.team-title{
+    max-width: 53rem;
+}
+
+.team-title span{
+    color: #FF64AE;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.25rem;
+}
+
+.team-title h1{
+    color: #091156;
+    font-size: 2.25rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2.813rem;
+    margin-top: 0.625rem;
+}
+
+.team-title p{
+    margin-top: 0.313rem;
+    color: #8B8B8B;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5rem;
+    letter-spacing: 0.1em;
+    margin-top: 1.188rem;
+    margin-bottom: 2.313rem;
+}
+
+
+
+.list-expert{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-items: center; */
+    /* display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr; */
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    margin-top: 5.3rem;
+    gap: 3.75rem;
+    max-height: 39.125rem;
+}
+
+[class^="member-"]{
+    /* background-color: #71ff64; */
+    max-width: 16.875rem;
+    max-height: 27.438rem;
+    border: none;
+    border-radius: 2.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-2{
+    max-width: 26.5rem;
+    max-height: 39.125rem;
+    box-shadow: 0rem 1.563rem 3.125rem 1.563rem #F6F7FF;
+    padding-top: 5.688rem;
+    padding-bottom: 6rem;
+}
+
+
+.member-1, .member-3{
+    padding-top: 0rem;
+}
+
+
+.expert-avt{
+    max-width: 9.125rem;
+}
+
+.expert-job{
+    color: #FF64AE;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.25rem;
+    margin-bottom: 0.875rem;
+    margin-top: 3.313rem;
+}
+.expert-name{
+    color: #091156;
+    font-size: 1.125rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.406rem;
+}
+
+
+[class^="member-"] p{
+    max-width: 100%;
+    color: #8B8B8B;
+    font-size: 0.875rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.313rem;
+    margin-top: 1.25rem;
+    letter-spacing: 0.1em;
+    margin-bottom: 3.7rem;
+}
+
+.member-2 p{
+    max-width: 16.875rem;
+    margin-left: 4.813rem;
+    margin-right: 4.813rem;
+}
+
+
+.expert-social{
+    display: flex;
+    flex-direction: row;
+    max-width: 13.438rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 2.125rem;
+}
+
+.twitter-img, .facebook-img, .instagram-img{
+    margin: 0 auto;
+    max-width: 3.063rem;
+}
+
+.expert-social-img{
+    max-width: 100%;
+    width: 100%;
+    scale: 1.5;
+}

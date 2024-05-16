@@ -1,3 +1,65 @@
+
+
+.menu-icon{
+    width: 1.25rem;
+    display: none;
+    margin-top: -2.5rem;
+    margin-left: 0;
+}
+
+.menubar{
+    margin-top: -3rem;
+    margin-left: auto;
+}
+
+.nav-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    animation: fadeIn linear 0.2s;
+}
+
+.nav-mobile{
+    margin-top: 1.5rem;
+}
+.nav-link{
+    color: #333;
+    display: block;
+    padding: 0.5rem 0rem;
+    font-size: 1.4rem;
+}
+
+.close{
+    font-size: 1rem;
+    position: absolute;
+    font-weight: 100;
+    top: 0.2rem;
+    right: 0.2rem;
+}
+
+#input-open:checked~.nav-overlay{
+    display: block;
+}
+
+.nav-check:checked~.nav-wraper{
+    transform: translateX(0);
+    background-color: #64ff64;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 .menu{
     height: 100%;
     position: fixed;
