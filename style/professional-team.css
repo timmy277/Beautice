@@ -2,7 +2,7 @@
 .professional-team{
     max-width: 67.813rem;
     margin: 0 auto;
-    margin-top: 4.5rem;
+    margin-top: 8.1rem;
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -49,12 +49,12 @@
 
 
 .list-expert{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     align-items: center;
-    /* justify-items: center; */
-    /* display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr; */
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
     margin-top: 5.3rem;
     gap: 3.75rem;

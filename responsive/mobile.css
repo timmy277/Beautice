@@ -1,12 +1,15 @@
 
-/* <740px */
-@media only screen and (max-width: 46.25em) 
+/* <768px */
+@media only screen and (max-width: 767px) 
 /* Điện thoại di động */
-/* @media only screen and (max-width: 767px) */
 {
 
 
     /*===========================================Header===========================================*/
+
+    html{
+        font-size: 80%;
+    }
 
     *{
         margin: 0;
@@ -15,8 +18,14 @@
 
 
     header{
-        margin-bottom: 5rem;
+        /* margin-bottom: 5rem; */
         max-width: 100%;
+    }
+
+    .container{
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
     }
 
     .main-menu{
@@ -49,35 +58,43 @@
     /*===========================================Slider===========================================*/
 
     .main-slider{
-        flex-direction: column;
-        margin-left: 0;
-        margin-right: 0;
+        margin: 0 auto;
+        margin-top: 2rem;
     }
 
     .slider-content{
-        margin-top: -10rem;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin: 0;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
     }
+
+    .slider-img{
+        padding: 0;
+        margin: 0 auto;
+        max-width: 80%;
+        width: 80%;
+    }
+
 
     .slider-content buttton{
         display: none;
     }
 
     .slider-content h1{
+        margin: 0 auto;
         max-width: 100%;
-        font-size: 1.6rem;
+        width: 100%;
+        font-size: 2rem;
         text-align: center;
-        line-height: 1rem;
-        letter-spacing: 0.01rem;
     }
 
     .slider-content p{
         margin-top: 0.2rem;
         text-align: center;
-        font-size: 0.6rem;
+        font-size: 1rem;
         line-height: 1rem;
         letter-spacing: 0.1rem;
     }
@@ -94,22 +111,13 @@
         margin-top: 2.813rem;
     }
 
-    .slider-img{
-        max-width: 100%;
-        width: 100%;
-    }
-
-    .slider-img image{
-        max-width: 100%;
-        width: 100%;
-    }
 
     /*===========================================Main Service===========================================*/
 
     .main-service{
         max-width: 100%;
         margin: 0;
-        margin-top: -3.125rem;
+        margin-top: 3.125rem;
     }
     
 
@@ -130,7 +138,7 @@
     [class^="service-item-"]{
         max-width: 100%;
         padding: 2.5rem 2.188rem 1.875rem 2.188rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .service-name{
@@ -157,7 +165,12 @@
 
     .aboutus{
         max-width: 100%;
-        margin: 3.438rem 0.625rem 0 0.625rem;
+        margin: 0rem 0.625rem 0 0.625rem;
+        grid-template-columns: 1fr;
+    }
+
+    .aboutus-image{
+        max-width: 70%;
     }
 
     .aboutus span{
@@ -191,11 +204,17 @@
     }
 
     .aboutus-image{
-        max-width: 100%;
-        width: 100%;
-        flex-basis: 100%;
+        max-width: 80%;
+        width: 80%;
         align-self: center;
         margin: 0 auto;
+        padding: 0;
+    }
+
+    .aboutus-img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
     .group-button{
@@ -243,9 +262,9 @@
     .list-expert{
         margin: 0;
         padding: 0;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr;
         margin-top: 2rem;
-        row-gap: 1.5rem;
+        margin-bottom: 50rem;
     }
 
     
@@ -278,12 +297,15 @@
 
     /*===========================================Contact Us===========================================*/
 
+    .wrapper-contactus{
+        margin-top: 10rem;
+    }
     .contact-us{
         max-width: 100%;
         margin: 0 auto;
-        margin-top: 1.25rem;
+        margin-top: 3.25rem;
         padding: 0;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .contact-us span{
@@ -504,5 +526,9 @@
     .bottom-footer p{
         font-size: 0.6rem;
     }
+
+    /* .background-top, .background-contactus, .background-bubble{
+        display: none;
+    } */
 }
 

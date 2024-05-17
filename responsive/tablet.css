@@ -1,26 +1,25 @@
 
-/* >=740 <991 
+/* >=768 <991 
 Tablet
 */
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
+    html{
+        font-size: 80%;
+    }
+
     *{
         margin: 0;
         padding: 0;
     }
-
     /*===========================================Header===========================================*/
     header{
         margin-bottom: 5rem;
-        max-width: 105rem;
         max-width: 100%;
     }
 
     .background-top{
         max-width: 80%;
-    }
-    .navbar{
-        display: none;
     }
 
     .container{
@@ -28,13 +27,14 @@ Tablet
         margin: 0;
         padding: 0;
     }
-    .logo{
+    .navbar{
         display: none;
     }
 
     .close{
         display: block;
     }
+    
     /*===========================================Navigation===========================================*/
     .nav-logo{
         width: 40%;
@@ -47,13 +47,27 @@ Tablet
 
     /*===========================================Slider===========================================*/
 
+    .main-slider{
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+
     .slider-content{
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0;
+        padding: 0;
     }
 
+    .slider-img{
+        padding: 0;
+        margin: 2rem auto;
+    }
+
+    .slider-img img{
+        max-width: 80%;
+        width: 80%;
+    }
 
     .slider-content buttton{
         display: none;
@@ -84,11 +98,6 @@ Tablet
         margin-left: 1rem;
     }
 
-    .slider-content{
-        margin-top: -10rem;
-        width: 90%;
-    }
-
     .slider-content h1{
         max-width: 100%;
         font-size: 2rem;
@@ -105,11 +114,7 @@ Tablet
     }
 
     .service-list{
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .navbar{
-        margin-left: 0;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .more-details-button{
@@ -123,6 +128,10 @@ Tablet
         padding-right: 5%;
         margin: 0;
         margin-top: -3.125rem;
+    }
+
+    [class^="service-item-"]{
+        margin-bottom: 2rem;
     }
 
     /*===========================================About us===========================================*/
@@ -171,9 +180,6 @@ Tablet
     .aboutus-image{
         width: 100%;
     }
-    .navbar ul{
-        display: none;
-    }
 
 
     .group-button{
@@ -189,6 +195,7 @@ Tablet
     .professional-team{
         margin: 0;
         margin-top: 3rem;
+        margin-bottom: 6rem;
     }
     .team-title h1{
         font-size: 1.5rem;
@@ -202,7 +209,7 @@ Tablet
     .list-expert{
         margin: 0;
         padding: 0;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         margin-top: 2rem;
         column-gap: 1rem;
     }
@@ -302,6 +309,13 @@ Tablet
     }
     .toTopImg{
         display: none;
+    }
+    /* .background-top, .background-contactus, .background-bubble{
+        display: none;
+    } */
+
+    .background-contactus{
+        max-width: 80%;
     }
 }
 

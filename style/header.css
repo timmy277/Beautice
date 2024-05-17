@@ -5,10 +5,10 @@
 }
 
 
-/* img {
+img {
     max-width: 100%;
     height: auto;
-} */
+}
 
 
 header{
@@ -42,8 +42,8 @@ header{
 }
 
 .main-logo{
-    max-width: 16.125rem;
-    max-height: 3.938rem;
+    width: 16.125rem;
+    height: 3.938rem;
     height: 100%;
     object-fit: cover;
     margin: auto 0;
@@ -124,7 +124,7 @@ header{
 
 
 .background-top{
-    max-width: 80%;
+    max-width: 100%;
     position: absolute;
     z-index: -20;
     top: 0;

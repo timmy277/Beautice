@@ -1,11 +1,39 @@
 
 .aboutus{
     max-width: 71.25rem;
-    margin: 0rem 9.375rem 0rem 9.375rem;
-    padding-top: 8.403rem;
+    margin: 0 auto;
+    padding-top: 8.5rem;
+    /* display: flex;
+    flex-direction: row; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+
+.titleanddesc{
     display: flex;
     flex-direction: column;
+    margin-right: 2rem;
+    flex-basis: 55%;
 }
+
+
+.aboutus-image{
+    flex-basis: 50%;
+    max-width: none;
+    margin-left: 5.5rem;
+}
+
+.aboutus-image img{
+    margin-top: 1.5rem;
+    width: 100%;
+    scale: 1.27;
+    object-fit: cover;
+}
+
+
+
 
 .aboutus span{
     color: #FF64AE;
@@ -17,9 +45,6 @@
     margin-bottom: 0.75rem;
 }
 
-.aboutus-content{
-    display: flex;
-}
 
 .titleanddesc h1 {
     color: #091156;
@@ -43,35 +68,9 @@
 }
 
 
-.aboutus-content{
-    /* max-width: 41.5rem; */
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
 
-.titleanddesc{
-    /* flex-basis: 50%; */
-    display: flex;
-    flex-direction: column;
-    /* margin-right: 50px; */
-}
 
-.aboutus-image{
-    max-width: 29.75rem;
-    width: 50%;
-    /* margin-left: 3.6rem; */
-    margin-left: auto;
-    margin-top: -2.1rem;
-    margin-right: 4.8rem;
-    padding-top: 0rem;
-    /* flex-basis: 50%;
-    max-width: 100%; */
-}
-.aboutus-image image{
-    width: 100%;
-    object-fit: contain;
-}
+
 
 .group-button{
     display: flex;
