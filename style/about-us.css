@@ -60,15 +60,18 @@
 .aboutus-image{
     max-width: 29.75rem;
     width: 50%;
-    margin-left: 3.6rem;
+    /* margin-left: 3.6rem; */
+    margin-left: auto;
     margin-top: -2.1rem;
+    margin-right: 4.8rem;
     padding-top: 0rem;
-    /* flex-basis: 50%; */
+    /* flex-basis: 50%;
+    max-width: 100%; */
 }
-/* .aboutus-image image{
+.aboutus-image image{
     width: 100%;
     object-fit: contain;
-} */
+}
 
 .group-button{
     display: flex;

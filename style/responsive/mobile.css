@@ -16,14 +16,12 @@
 
     header{
         margin-bottom: 5rem;
-        max-width: 105rem;
         max-width: 100%;
     }
 
     .main-menu{
         max-width: 100%;
         display: none;
-        
     }
 
     .navbar{
@@ -36,7 +34,7 @@
         margin-left: 2rem;
     }
 
-    .menu-icon{
+    .menubar{
         display: block;
     }
 
@@ -96,6 +94,15 @@
         margin-top: 2.813rem;
     }
 
+    .slider-img{
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .slider-img image{
+        max-width: 100%;
+        width: 100%;
+    }
 
     /*===========================================Main Service===========================================*/
 
@@ -182,16 +189,11 @@
         align-items: center;
         justify-items: center;
     }
-    /* .aboutus-image{
-        max-width: 100%;
-        align-self: center;
-        margin: 0 auto;
-    } */
 
     .aboutus-image{
         max-width: 100%;
         width: 100%;
-        /* flex-basis: 100%; */
+        flex-basis: 100%;
         align-self: center;
         margin: 0 auto;
     }

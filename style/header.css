@@ -23,7 +23,7 @@ header{
 
 .container{
     max-width: 71.25rem;
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
     justify-items: center;
@@ -124,9 +124,9 @@ header{
 
 
 .background-top{
+    max-width: 80%;
     position: absolute;
-    z-index: -2;
+    z-index: -20;
     top: 0;
     left: 0;
-    width: 100%;
 }

@@ -71,6 +71,7 @@
 
 .service-list image{
     max-width: 10.375rem;
+    width: 100%;
     object-fit: cover;
 }
 

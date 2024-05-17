@@ -16,6 +16,9 @@ Tablet
         max-width: 100%;
     }
 
+    .background-top{
+        max-width: 80%;
+    }
     .navbar{
         display: none;
     }
@@ -66,11 +69,10 @@ Tablet
         margin-top: 2.813rem;
     }
 
-    .main-slider image{
-        /* width: 37.5rem; */
+    .slider-img{
         max-width: 100%;
         height: auto;
-        flex-basis: 50%;
+        flex-basis: 100%;
     }
 
     .close{
@@ -138,7 +140,6 @@ Tablet
     .aboutus-image{
         max-width: 100%;
         width: 100%;
-        /* flex-basis: 100%; */
         align-self: center;
         margin: 0 auto;
     }
@@ -245,9 +246,9 @@ Tablet
         max-width: 100%;
     }
 
-    .contact-animation-image{
+    /* .contact-animation-image{
         width: 100%;
-    }
+    } */
 
     /*===========================================Footer===========================================*/
 
