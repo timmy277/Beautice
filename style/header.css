@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow-x: hidden;
-}
 
 img {
     max-width: 100%;
@@ -21,7 +18,6 @@ header{
     justify-items: center;
     justify-content: space-between;
     position: relative;
-
 }
 
 
@@ -67,7 +63,7 @@ header{
     flex-direction: row;
     justify-items: center;
     /* align-items: center; */
-    /* margin-left: 11.8rem; */
+    margin-left: 11.8rem;
     max-width: 30.063rem;
     max-height: 1.563rem;
     margin-right: 3.25rem;
