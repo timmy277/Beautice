@@ -8,7 +8,7 @@
     /*===========================================Header===========================================*/
 
     html{
-        font-size: 80%;
+        font-size: 90%;
     }
 
     *{
@@ -25,25 +25,26 @@
     .container{
         max-width: 100%;
         margin: 0;
-        padding: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 6rem;
     }
 
-    .main-menu{
-        max-width: 100%;
-        display: none;
-    }
 
     .navbar{
         display: none;
     }
 
+    /* .contact-button{
+        display: none;
+    } */
     .nav-logo{
         width: 40%;
         margin-top: 2rem;
         margin-left: 2rem;
     }
 
-    .menubar{
+    .menu-icon{
         display: block;
     }
 
@@ -59,7 +60,7 @@
 
     .main-slider{
         margin: 0 auto;
-        margin-top: 2rem;
+        margin-top: ̣4rem;
     }
 
     .slider-content{
@@ -69,13 +70,14 @@
         width: 100%;
         max-width: 100%;
         padding: 0;
+        margin-bottom: 2rem;
     }
 
     .slider-img{
         padding: 0;
         margin: 0 auto;
-        max-width: 80%;
-        width: 80%;
+        max-width: 60%;
+        width: 60%;
     }
 
 
@@ -120,11 +122,16 @@
         margin-top: 3.125rem;
     }
     
+    .service-title{
+        margin: 0;
+        max-width: 90%;
+    }
 
     .sub-title{
         max-width: 100%;
-        font-size: 1.75rem;
-        line-height: 2rem;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        font-weight: 500;
     }
 
     .service-list{
@@ -133,6 +140,10 @@
         place-items: center;
         margin-left: 2rem;
         margin-right: 2rem;
+    }
+
+    .service-title .desc{
+        font-size: 0.8rem;
     }
 
     [class^="service-item-"]{
@@ -167,10 +178,19 @@
         max-width: 100%;
         margin: 0rem 0.625rem 0 0.625rem;
         grid-template-columns: 1fr;
+        padding-left: 2%;
+        padding-right: 2%;
+        align-items: center;
+        text-align: center;
     }
-
     .aboutus-image{
-        max-width: 70%;
+        width: 80%;
+        align-self: center;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .aboutus-image img{
+        width: 100%;
     }
 
     .aboutus span{
@@ -180,11 +200,12 @@
     .titleanddesc{
         max-width: 100%;
         width: 100%;
+        margin: 0 auto;
     }
 
     .titleanddesc h1{
         text-align: center;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .titleanddesc p{
@@ -201,21 +222,9 @@
         gap: 3rem;
         align-items: center;
         justify-items: center;
+
     }
 
-    .aboutus-image{
-        max-width: 80%;
-        width: 80%;
-        align-self: center;
-        margin: 0 auto;
-        padding: 0;
-    }
-
-    .aboutus-img{
-        width: 100%;
-        height: 100%;
-        object-fit: contain;
-    }
 
     .group-button{
         align-self: center;
@@ -225,7 +234,7 @@
     }
 
     .learn-more-button, .watch-video-button p{
-        padding: 0.5rem 1.375rem;
+        padding: 0.5rem 1.6rem;
         font-size: 0.6rem;
         justify-content: center;
     }
@@ -273,7 +282,7 @@
     }
 
     .team-title p {
-        width: 70%;
+        width: 100%;
         font-size: 0.7rem;
         margin: 0 auto;
     }
@@ -328,9 +337,9 @@
         align-self: center;
         text-align: center;
     }
-    /* .contact-animation-image{
-        display: none;
-    } */
+    .contact-animation-image{
+        margin-top: 0rem;
+    }
     
     .contact-title{
         text-align: center;
@@ -420,7 +429,7 @@
     }
 
     .footer-logo{
-        width: 50%;
+        width: 15rem;
         margin-top: 4rem;
     }
 
@@ -441,6 +450,7 @@
     }
 
     .info-company{
+        max-width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -489,6 +499,7 @@
     }
 
     .content-footer{
+        width: 100%;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto 1fr;
         grid-template-areas: 
@@ -519,8 +530,8 @@
         gap: 1.8rem;
     }
 
-    .social-img{
-        width: 40%;
+    .social-img img{
+        width: 30%;
     }
 
     .bottom-footer p{

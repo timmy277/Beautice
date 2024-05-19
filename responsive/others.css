@@ -1,22 +1,29 @@
 
 
-@media only screen and (min-width: 992px) and (max-width: 1439px){
+@media only screen and (min-width: 992px) and (max-width: 1380px){
 
     html{
         font-size: 95%;
+    }
+    body{
+        overflow-x: hidden;
     }
     /*===========================================Header===========================================*/
     header{
         max-width: 100%;
     }
 
-    .background-top{
-        max-width: 80%;
+    /* .background-top{
+        max-width: 90%;
+    } */
+
+    .container{
+        padding-right: 1%;
+        padding-left: 1%;
     }
 
-    
-    .main-logo{
-        max-width: 100%;
+    .main-logo img{
+        max-width: none;
     }
     /* .navbar{
         margin-left: 0;
@@ -57,9 +64,10 @@
         margin-right: 7%;
     }
     /*===========================================Slider===========================================*/
-    /* .main-slider{
-        margin: 5rem auto;
-    } */
+    .main-slider{
+        padding-left: 2%;
+        padding-right: 2%;
+    }
 
     /* .slider-img{
         margin: 0;
@@ -74,12 +82,7 @@
     .slider-content{
         margin: 0;
         width: 100%;
-    }
-
-    .slider-content h1{
-        max-width: 100%;
-        font-size: 2.7rem;
-        letter-spacing: 0.1em;
+        padding-right: 3%;
     }
 
     .sub-title{
@@ -128,16 +131,9 @@
         justify-items: center;
     }
     .aboutus-image{
-        width: 80%;
+        width: 75%;
     }
 
-    .group-button{
-        align-self: center;
-    }
-
-    .play-button{
-        width: 20%;
-    }
 
 /*===========================================Professional Team===========================================*/
 
@@ -150,9 +146,11 @@
 /*==========================================Contact Us==========================================*/
 
     .contact-us{
-        width: 100%;
         margin: 0 auto;
-        padding-right: 5%;
+        padding-top: 8.8rem ;
+        max-width: 71.25rem;
+        padding-left: 2%;
+        padding-right: 2%;
     }
 
     .send-message-button{
@@ -166,7 +164,7 @@
     }
 
     .contact-animation-image{
-        width: 100%;
+        width: 90%;
     }
 
     /*===========================================Footer===========================================*/

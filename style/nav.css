@@ -1,16 +1,12 @@
 
 
 .menu-icon{
-    width: 1.25rem;
+    width: 2.25rem;
     display: none;
-    margin-top: -2.5rem;
     margin-left: 0;
+    margin-top: -5.5rem;
 }
 
-.menubar{
-    margin-top: -3rem;
-    margin-left: auto;
-}
 
 .nav-overlay{
     position: fixed;

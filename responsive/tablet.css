@@ -5,7 +5,7 @@ Tablet
 @media only screen and (min-width: 768px) and (max-width: 991px)
 {
     html{
-        font-size: 80%;
+        font-size: 90%;
     }
 
     *{
@@ -18,32 +18,52 @@ Tablet
         max-width: 100%;
     }
 
-    .background-top{
+    /* .background-top{
         max-width: 80%;
-    }
+    } */
 
     .container{
         max-width: 100%;
         margin: 0;
-        padding: 0;
+        padding-top: 2.563rem;
+        padding-left: 3%;
+        padding-right: 3%;
     }
     .navbar{
-        display: none;
+        max-width: 100%;
     }
 
-    .close{
-        display: block;
+    .main-logo img{
+        max-width: none;
+        width: 15rem;
+    }
+
+    .navbar ul{ 
+        margin-left: 0;
+        margin-right: 14%;
+    }
+
+
+    .navbar ul li:first-child {
+        margin-right: 8%;
     }
     
-    /*===========================================Navigation===========================================*/
-    .nav-logo{
-        width: 40%;
-        margin-top: 2rem;
-        margin-left: 2rem;
+    .navbar ul li:nth-child(2){
+        margin-right: 6%;
     }
-    .menu-icon{
-        display: block;
+    
+    .navbar ul li:nth-child(3){
+        margin-right: 6%;
     }
+    
+    .navbar ul li:nth-child(4){
+        margin-right: 6%;
+    }
+
+    .navbar ul li:last-child{
+        margin-right: 6%;
+    }
+
 
     /*===========================================Slider===========================================*/
 
@@ -52,19 +72,13 @@ Tablet
         margin-top: 2rem;
     }
 
-    .slider-content{
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        padding: 0;
-    }
-
+/* 
     .slider-img{
         padding: 0;
         margin: 2rem auto;
         max-width: 80%;
         width: 80%;
-    }
+    } */
 
     .slider-img img{
         margin: 0 auto;
@@ -78,6 +92,7 @@ Tablet
         flex-direction: column;
         margin-left: 0;
         margin-right: 0;
+        margin-top: 10.1rem;
     }
 
     .btnSlide{
@@ -85,38 +100,23 @@ Tablet
     }
 
 
-
-    .close{
+    /* .close{
         margin-top: 0rem;
         margin-left: 1rem;
     }
 
     .menu-icon{
         margin-left: 1rem;
-    }
+    } */
 
-    .slider-content h1{
-        max-width: 100%;
-        font-size: 2rem;
-        line-height: 3rem;
-        letter-spacing: 0.1em;
+    .slider-content{
+        padding-right: 2%;
     }
 
     .sub-title{
         max-width: 100%;
     }
 
-    .slider-content{
-        text-align: center;
-    }
-
-    .service-list{
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .more-details-button{
-        margin-bottom: 1rem;
-    }
 
     /*===========================================Main Service===========================================*/
     .main-service{
@@ -131,12 +131,17 @@ Tablet
         margin-bottom: 2rem;
     }
 
+    .service-list{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     /*===========================================About us===========================================*/
 
     .aboutus{
         max-width: 90%;
         margin: 0 auto;
         text-align: center;
+        grid-template-columns: 1fr;
     }
 
     .aboutus span{
@@ -144,10 +149,13 @@ Tablet
     }
 
     .aboutus-image{
-        max-width: 100%;
-        width: 100%;
+        width: 75%;
         align-self: center;
         margin: 0 auto;
+    }
+
+    .aboutus-image img{
+        width: 70%;
     }
 
     .titleanddesc{
@@ -163,7 +171,7 @@ Tablet
     .titleanddesc p{
         margin: 1rem auto;
         max-width: 100%;
-        text-align: left;
+        text-align: center;
     }
     .aboutus-content{
         max-width: 100%;
@@ -174,9 +182,7 @@ Tablet
         align-items: center;
         justify-items: center;
     }
-    .aboutus-image{
-        width: 100%;
-    }
+
 
 
     .group-button{
@@ -237,6 +243,10 @@ Tablet
         flex-basis: 100%;
         align-items: center;
         margin: 0 auto;
+    }
+
+    .contact-animation-image{
+        margin-top: 0rem;
     }
 
     .send-message-button{
