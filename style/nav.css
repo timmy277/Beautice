@@ -8,6 +8,7 @@
     left: 2rem;
 }
 
+
 .nav-overlay{
     position: fixed;
     top: 0;
@@ -96,7 +97,6 @@ nav ul li a{
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    border-radius: 1rem;
 }
 
 .close:hover{
@@ -104,7 +104,7 @@ nav ul li a{
 }
 
 
-nav ul li a:hover{
+nav ul li:hover{
     background-color: #FF64AE;
     color: white;
     scale: 1.3;
