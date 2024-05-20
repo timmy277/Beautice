@@ -4,18 +4,16 @@
     background-size: 100%, 100%;
     background-position: center, bottom;
     background-repeat: no-repeat, no-repeat;
-    object-fit: contain, contain;
-    padding-top: 14rem;
-    margin-top: 4rem;
+    padding-top: 13rem;
+    margin-top: 4.4rem;
     max-width: 100%;
     color: #D7DBFF;
     position: relative;
-    /* overflow: visible; */
 }
 
 .wrapper{
     max-width: 100%;
-    margin: 1.4rem 9.375rem 0rem 9.375rem;
+    margin: 2.1rem 9.375rem 0rem 9.375rem;
     display: flex;
     flex-direction: column;
 }
@@ -34,7 +32,7 @@
     line-height: 1.5rem;
     letter-spacing: 0.1em;
     text-align: left;
-    margin-top: 0.625rem;
+    margin-top: 0.64rem;
     padding-left: 0.313rem;
 }
 
@@ -61,7 +59,7 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.11em;
     text-align: left;
 }
 
@@ -88,7 +86,7 @@
     line-height: 1.313rem;
     text-align: left;
     margin-top: 0.313rem;
-    margin-left: 1.52rem;
+    margin-left: 1.42rem;
     letter-spacing: 0.1em;
 }
 .footer-p-4{
@@ -99,7 +97,7 @@
     font-weight: 400;
     line-height: 1.313rem;
     text-align: left;
-    margin-left: 2.2rem;
+    margin-left: 2.6rem;
     margin-top: 0.313rem;
     letter-spacing: 0.1em;
 }
@@ -139,6 +137,7 @@
     font-weight: 600;
     line-height: 1.688rem;
     letter-spacing: 0.1em;
+    margin-left: -0.16rem;
 }
 
 .pages ul li:first-child, .informations ul li:first-child{
@@ -177,7 +176,8 @@
     font-weight: 400;
     font-style: normal;
     line-height: 1.5rem;
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.103rem;
+    margin-bottom: 0.5rem;
     /* margin-top: 0.5rem; */
 }
 

@@ -6,16 +6,16 @@
 
 .background-contactus{
     position: absolute;
-    max-width: 100%;
-    z-index: -10;
-    top: 0;
+    max-width: none;
+    z-index: -100;
+    top: -13rem;
     left: 0;
 }
 
 
 .contact-us{
     max-width: 71.25rem;
-    margin: 8.8rem 9.375rem 0rem 9.375rem;
+    margin: 8.4rem 9.375rem 0rem 9.375rem;
     display: flex;
     max-width: 100%;
     flex-direction: row;
@@ -30,7 +30,7 @@
     max-width: 100%;
     height: auto;
     flex-basis: 50%;
-    margin-top: 4.1rem;
+    margin-top: 4.6rem;
 }
 
 
@@ -52,6 +52,7 @@
     line-height: 2.813rem;
     margin-top: 0.7rem;
     margin-bottom: 1.3rem;
+    letter-spacing: 0.009em;
 }
 
 
@@ -64,6 +65,7 @@
     line-height: 1.5rem;
     letter-spacing: 0.1em;
     margin-bottom: 2.9rem;
+    letter-spacing: 0.1056em;
 }
 
 
@@ -121,11 +123,11 @@ form input{
 .send-message-button{
     color: #FFFFFF;
     background-color: #FF64AE;
-    padding: 1rem 3.4rem;
+    padding: 1rem 3.475rem 1rem 3.475rem;
     border: none;
     font-size: 1rem;
     font-family: "Poppins", sans-serif;
-    font-weight: 600;
+    font-weight: 500;
     font-style: normal;
     line-height: 1.5rem;
     letter-spacing: 0.1em;

@@ -2,10 +2,9 @@
 .professional-team{
     max-width: 67.813rem;
     margin: 0 auto;
-    margin-top: 8.1rem;
+    margin-top: 9.2rem;
     display: flex;
     flex-direction: column;
-    justify-items: center;
     align-items: center;
     text-align: center;
 }
@@ -31,6 +30,7 @@
     font-style: normal;
     line-height: 2.813rem;
     margin-top: 0.625rem;
+    letter-spacing: 0.011em;
 }
 
 .team-title p{
@@ -51,12 +51,12 @@
 .list-expert{
     /* display: flex;
     flex-direction: row; */
+    width: 100%;
     align-items: center;
-    justify-items: center;
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
-    margin-top: 5.3rem;
+    margin-top: 5.5rem;
     gap: 3.75rem;
     max-height: 39.125rem;
 }
@@ -75,12 +75,17 @@
 
 .member-2{
     max-width: 26.5rem;
+    width: 26.5rem;
     max-height: 39.125rem;
     box-shadow: 0rem 1.563rem 3.125rem 1.563rem #F6F7FF;
-    padding-top: 5.688rem;
+    padding-top: 6rem;
     padding-bottom: 6rem;
+    background-color: #FFFFFF;
 }
 
+.member-1 .expert-name{
+    letter-spacing: 0.015em;
+}
 
 .member-1, .member-3{
     padding-top: 0rem;
@@ -108,6 +113,7 @@
     font-weight: 600;
     font-style: normal;
     line-height: 1.406rem;
+    margin-bottom: 1.35rem;
 }
 
 
@@ -119,9 +125,8 @@
     font-weight: 400;
     font-style: normal;
     line-height: 1.313rem;
-    margin-top: 1.25rem;
     letter-spacing: 0.1em;
-    margin-bottom: 3.7rem;
+    margin-bottom: 2.4rem;
 }
 
 .member-2 p{
@@ -134,19 +139,17 @@
 .expert-social{
     display: flex;
     flex-direction: row;
-    max-width: 13.438rem;
     justify-content: space-between;
     margin: 0 auto;
-    gap: 2.125rem;
-}
-
-.twitter-img, .facebook-img, .instagram-img{
-    margin: 0 auto;
-    max-width: 3.063rem;
+    gap: 0.125rem;
 }
 
 .expert-social-img{
-    max-width: 100%;
-    width: 100%;
-    scale: 1.5;
+    width: 5.063rem;
+    height: 5.063rem;
+}
+
+.expert-social-img img{
+    width: 3.063rem;
+    height: 3.063rem;
 }

@@ -3,33 +3,33 @@
     max-width: 71.25rem;
     margin: 0 auto;
     padding-top: 8.5rem;
-    /* display: flex;
-    flex-direction: row; */
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
 }
 
 
 .titleanddesc{
     display: flex;
     flex-direction: column;
-    margin-right: 2rem;
-    flex-basis: 55%;
+    max-width: 55%;
 }
 
-
 .aboutus-image{
-    flex-basis: 50%;
-    max-width: none;
-    margin-left: 5.5rem;
+    max-width: 45%;
+    width: 29.75rem;
+    height: 21.875rem;
 }
 
 .aboutus-image img{
-    margin-top: 1.5rem;
-    width: 100%;
-    scale: 1.27;
-    object-fit: cover;
+    /* width: 100%; */
+    /* width: 29.75rem;
+    height: 21.875rem; */
+    margin-left: -4.6rem;
+    margin-top: -2rem;
+    /* max-width: 100%; */
 }
 
 
@@ -53,6 +53,7 @@
     font-weight: 600;
     font-style: normal;
     line-height: 2.813rem;
+    letter-spacing: 0.003em;
 }
 
 .titleanddesc p{
@@ -64,7 +65,7 @@
     font-weight: 400;
     font-style: normal;
     line-height: 1.5rem;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.106em;
 }
 
 

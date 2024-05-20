@@ -28,7 +28,6 @@
     .main-service{
         max-width: 71.25rem;
         margin: 0 auto;
-        margin-top: 8.5rem;
     }
 
     .wrapper-aboutus{
@@ -64,7 +63,7 @@
     .background-contactus-img{
         width: 100%;
     }
-    footer{
+    .wrapper{
         max-width: 71.25rem;
         margin: 0 auto;
         margin-top: -2rem;

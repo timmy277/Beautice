@@ -21,6 +21,9 @@ Tablet
     /* .background-top{
         max-width: 80%;
     } */
+    img{
+        max-width: 100%;
+    }
 
     .container{
         max-width: 100%;
@@ -29,8 +32,30 @@ Tablet
         padding-left: 3%;
         padding-right: 3%;
     }
+    
     .navbar{
-        max-width: 100%;
+        display: none;
+    }
+
+    /* .contact-button{
+        display: none;
+    } */
+    .nav-logo{
+        width: 40%;
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .close{
+        display: block;
     }
 
     .main-logo img{
@@ -38,76 +63,57 @@ Tablet
         width: 15rem;
     }
 
-    .navbar ul{ 
-        margin-left: 0;
-        margin-right: 10%;
+    .slider-content{
+        text-align: center;
     }
 
-
-    .navbar ul li:first-child {
-        margin-right: 8%;
+    .slider-content h1{
+        font-size: 2.5rem;
     }
-    
-    .navbar ul li:nth-child(2){
-        margin-right: 6%;
-    }
-    
-    .navbar ul li:nth-child(3){
-        margin-right: 6%;
-    }
-    
-    .navbar ul li:nth-child(4){
-        margin-right: 6%;
-    }
-
-    .navbar ul li:last-child{
-        margin-right: 6%;
-    }
-
 
     /*===========================================Slider===========================================*/
 
     .main-slider{
+        margin-top: 4rem;
+        padding-left: 2%;
+        padding-right: 2%;
         margin: 0 auto;
-        margin-top: 8rem;
+        flex-direction: column;
+        align-items: center;
     }
-
-/* 
-    .slider-img{
-        padding: 0;
-        margin: 2rem auto;
-        max-width: 80%;
-        width: 80%;
-    } */
 
     .slider-img img{
         margin: 0 auto;
     }
 
-    .slider-content buttton{
-        display: none;
+    .slider-content{
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 100%;
+        padding: 0;
+        margin-bottom: 2rem;
     }
 
-    .main-slider{
-        flex-direction: column;
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10.1rem;
+    .slider-img{
+        padding: 0;
+        margin: 0 auto;
+        max-width: 80%;
+        max-height: 80%;
+        width: 80%;
     }
+
+    .slider-img img{
+        margin: 0 auto;
+        width: 100%;
+        max-height: 100%;
+    }
+
 
     .btnSlide{
-        margin-top: 8.813rem;
+        margin-top: 4.8rem;
     }
-
-
-    /* .close{
-        margin-top: 0rem;
-        margin-left: 1rem;
-    }
-
-    .menu-icon{
-        margin-left: 1rem;
-    } */
 
     .slider-content{
         padding-right: 2%;
@@ -124,7 +130,6 @@ Tablet
         padding-left: 5%;
         padding-right: 5%;
         margin: 0;
-        margin-top: 3.125rem;
     }
 
     [class^="service-item-"]{
@@ -133,33 +138,38 @@ Tablet
 
     .service-list{
         grid-template-columns: repeat(3, 1fr);
+        column-gap: 2rem;
     }
 
     /*===========================================About us===========================================*/
 
     .aboutus{
-        max-width: 100%;
-        margin: 0 auto;
         text-align: center;
-        grid-template-columns: 1fr;
+        flex-direction: column;
     }
 
     .aboutus span{
         align-self: center;
     }
 
-    .aboutus-image{
-        width: 80%;
-        align-self: center;
-        margin: 0 auto;
-    }
-
-    .aboutus-image img{
-        width: 80%;
-    }
 
     .titleanddesc{
         width: 100%;
+        margin: 0 auto;
+    }
+
+    .aboutus-image{
+        max-width: 100%;
+        width: 100%;
+        height: 100%;
+        align-self: center;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+    .aboutus-image img{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2rem;
     }
 
     .titleanddesc h1{
@@ -183,21 +193,19 @@ Tablet
         justify-items: center;
     }
 
-
-
     .group-button{
-        align-self: center;
+        margin: 0 auto;
+    }
+    .watch-video-button{
+        gap: 1rem;
     }
 
-    .play-button{
-        width: 20%;
-    }
 
 /*===========================================Professional Team===========================================*/
 
     .professional-team{
         margin: 0;
-        margin-top: 3rem;
+        margin-top: 10rem;
         margin-bottom: 6rem;
     }
     .team-title h1{
@@ -205,9 +213,9 @@ Tablet
         line-height: 2rem;
     }
 
-    .team-title p{
+    /* .team-title p{
         margin-bottom: 0;
-    }
+    } */
 
     .list-expert{
         margin: 0;
@@ -218,8 +226,16 @@ Tablet
     }
 
     [class^="member-"], .expert-job, .team-title p{
-        padding: 0.625rem 0.625rem;
+        padding: 0.625rem 0rem;
         margin-bottom: 1rem;
+    }
+
+    [class^="member-"] p{
+        width: 90%;
+    }
+
+    .member-2{
+        width: 100%;
     }
 /*==========================================Contact Us==========================================*/
 
@@ -236,6 +252,10 @@ Tablet
 
     .contact-us span{
         text-align: center;
+    }
+
+    .contact-title h1{
+        font-size: 2rem;
     }
     
     .contact-content{

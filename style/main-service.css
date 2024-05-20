@@ -7,19 +7,19 @@
     max-width: 100%;
     z-index: -10;
     right: 0;
-    top: 32rem;
+    top: 40.2rem;
 }
 
 
 .main-service{
     max-width: 71.25rem;
     margin: 0 auto;
-    margin-top: 8.188rem;
+    padding-top: 8rem;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center;
     justify-items: center;
-    justify-content: center;
+    justify-content: center; */
     text-align: center;
     
 }
@@ -58,13 +58,13 @@
     line-height: 1.5rem;
     letter-spacing: 0.1rem;
     margin: 0 auto;
-    margin-top: 1.25rem;
+    margin-top: 1.15rem;
 }
 
 
 
 .service-list{
-    margin-top: 5.125rem;
+    margin-top: 5.27rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3.5rem;
@@ -96,8 +96,9 @@
     font-weight: 600;
     font-style: normal;
     line-height: 1.406rem;
-    margin-top: 3.5rem;
+    margin-top: 3.4rem;
     margin-bottom: 1.3rem;
+    letter-spacing: 0.012em;
 }
 
 [class^="service-item-"] p:last-child{
