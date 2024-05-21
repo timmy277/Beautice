@@ -181,10 +181,21 @@
     /* margin-top: 0.5rem; */
 }
 
-.toTopImg{
+/* .toTopImg{
     position: absolute;
     right: 4.1rem;
     bottom: 10.2rem;
+} */
+
+.btnBacktoTop{
+    position: fixed;
+    border: none;
+    background-color: transparent;
+    right: 4rem;
+    bottom: 10.4rem;
+    display: none;
+    z-index: 9;
+    cursor: pointer;
 }
 
 
